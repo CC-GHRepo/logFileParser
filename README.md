@@ -28,6 +28,10 @@ Sortie : Fichier JSON input_file_name.json contenant les informations suivantes 
 
 # Tests unitaires
 
+Avant de lancer le script, modifier dans le code le filepath des fichiers input_file et output_file (lignes 7 et 8):
+input_file = "/home/user/esxcli_network_ip_connection_list.txt"
+output_file = "/home/user/esxcli_network_ip_connection_list"
+
 Pour lancer les tests :
 $ pytest test_log_file_parser.py
 
